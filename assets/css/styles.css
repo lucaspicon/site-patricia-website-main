@@ -535,7 +535,6 @@ img {
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 3rem;
-  padding-block: 1.5rem 3rem;
 }
 
 .contact__img {
@@ -596,6 +595,14 @@ img {
 
 .contact__social-link:hover {
   transform: translateY(-0.25rem);
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 /*=============== FOOTER ===============*/
 .footer {
@@ -760,18 +767,18 @@ img {
   .footer__content {
     grid-template-columns: repeat(1, max-content);
   }
-}
 
-.home__container,
-.about__container,
-.services__container,
-.contact__container {
-  grid-template-columns: 320px;
-  justify-content: center;
-}
+  .home__container,
+  .about__container,
+  .services__container,
+  .contact__container {
+    grid-template-columns: 320px;
+    justify-content: center;
+  }
 
-.footer__content {
-  grid-template-columns: repeat(2, max-content);
+  .footer__content {
+    grid-template-columns: repeat(2, max-content);
+  }
 }
 
 @media screen and (min-width: 370px) {
@@ -910,7 +917,7 @@ img {
     width: 350px;
     border-width: 10px;
     left: -16rem;
-    bottom: -8rem;
+    bottom: -5rem;
   }
 
   .about__container {
@@ -1022,7 +1029,10 @@ img {
   }
 
   .contact__data {
-    gap: 2rem;
+    margin-top: 120px;
+    display: flex;
+
+    gap: 20px;
   }
 
   .contact__card {
@@ -1031,6 +1041,11 @@ img {
 
   .contact__title {
     font-size: var(--h3-font-size);
+  }
+
+  .map {
+    width: 100%;
+    max-width: 1200px;
   }
 
   .footer {
