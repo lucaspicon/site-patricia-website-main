@@ -779,6 +779,10 @@ img {
   .footer__content {
     grid-template-columns: repeat(2, max-content);
   }
+
+  .button {
+    padding: 0.75rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 370px) {
@@ -808,6 +812,10 @@ img {
   .footer__content {
     grid-template-columns: repeat(3, max-content);
   }
+
+  .button {
+    padding: 0.75rem 1.5rem;
+  }
 }
 
 @media screen and (min-width: 568px) {
@@ -831,6 +839,10 @@ img {
 
   .footer__email {
     font-size: 0.85rem;
+  }
+
+  .button {
+    padding: 0.75rem 1.5rem;
   }
 }
 
