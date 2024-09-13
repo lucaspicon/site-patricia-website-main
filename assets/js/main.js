@@ -93,6 +93,6 @@ sr.reveal(
   `.home__content, .services__data, .services__swiper, .footer__container`
 )
 sr.reveal(`.home__images`, { origin: "bottom", delay: 1000 })
-sr.reveal(`.about__images, .contact__img`, { origin: "left" })
+sr.reveal(`.about__images, .contact__img, .map`, { origin: "left" })
 sr.reveal(`.about__data, .contact__data`, { origin: "right" })
 sr.reveal(`.products__card`, { interval: 100 })

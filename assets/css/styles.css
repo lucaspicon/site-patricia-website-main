@@ -789,6 +789,10 @@ img {
   .home__button {
     flex-direction: column;
   }
+
+  .button {
+    padding: 0.75rem 1.5rem;
+  }
 }
 /* For medium devices */
 @media screen and (min-width: 540px) {
