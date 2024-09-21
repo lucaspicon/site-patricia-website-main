@@ -378,7 +378,7 @@ img {
 
 .about__list {
   text-align: initial;
-  grid-template-columns: repeat(2, 130px);
+  /*grid-template-columns: repeat(2, 130px);*/
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
@@ -751,7 +751,7 @@ img {
   }
 
   .about__list {
-    grid-template-columns: repeat(1, 100px);
+    margin-left: 1rem;
   }
 
   .about__img-1 {
