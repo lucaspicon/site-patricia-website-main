@@ -926,14 +926,14 @@ img {
   }
 
   .home__img-1 {
-    width: 430px;
-    margin-left: 0;
+    width: 450px;
+    margin-left: 15rem;
   }
 
   .home__img-2 {
-    width: 360px;
+    width: 400px;
     border-width: 10px;
-    left: -20rem;
+    left: -7rem;
     bottom: -8rem;
   }
 
@@ -950,14 +950,14 @@ img {
   .about__img-1 {
     width: 370px;
     border-width: 10px;
-    top: -9rem;
+    top: -5rem;
     left: 11rem;
   }
 
   .about__img-2 {
     width: 470px;
     margin-left: -7rem;
-    margin-top: 2.5rem;
+    margin-top: 9.5rem;
   }
 
   .about__data,
