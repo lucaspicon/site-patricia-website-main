@@ -852,7 +852,7 @@ img {
     margin-inline: auto;
   }
   .section {
-    padding-block: 7rem 2rem;
+    padding-block: 7rem 9rem;
   }
 
   .nav {
@@ -926,15 +926,15 @@ img {
   }
 
   .home__img-1 {
-    width: 450px;
+    width: 430px;
     margin-left: 0;
   }
 
   .home__img-2 {
-    width: 350px;
+    width: 360px;
     border-width: 10px;
-    left: -16rem;
-    bottom: -5rem;
+    left: -20rem;
+    bottom: -8rem;
   }
 
   .about__container {
