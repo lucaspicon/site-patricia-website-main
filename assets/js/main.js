@@ -40,6 +40,16 @@ bgHeader()
 /*=============== SWIPER SERVICES ===============*/
 const swiperServices = new Swiper(".services__swiper", {
   loop: true,
+  autoplay: {
+    delay: 3000, // Tempo de atraso entre as transições (em milissegundos)
+    disableOnInteraction: false, // Continua a rodar mesmo após interação do usuário
+  },
+  speed: 2000,
+  // Outras configurações opcionais
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
   grabCursor: true,
   spaceBetween: 24,
   slidesPerView: "auto",
