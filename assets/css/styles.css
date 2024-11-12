@@ -960,6 +960,7 @@ img {
     border-width: 10px;
     left: -7rem;
     bottom: -8rem;
+    visibility: visible;
   }
 
   .about__container {
