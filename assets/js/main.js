@@ -105,6 +105,7 @@ const aboutSwiper = new Swiper(".about__images.swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");

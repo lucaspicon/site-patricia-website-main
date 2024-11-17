@@ -770,6 +770,8 @@ img {
     margin-left: 1rem;
   }
 
+  
+
   .footer__content {
     grid-template-columns: repeat(1, max-content);
   }
@@ -782,6 +784,10 @@ img {
     justify-content: center;
   }
 
+  .swiper-button-next,
+  .swiper-button-prev{
+    display: none;
+  }
   .footer__content {
     grid-template-columns: repeat(2, max-content);
   }
