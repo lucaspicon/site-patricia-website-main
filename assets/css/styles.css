@@ -185,7 +185,7 @@ img {
     top: 0;
     right: -100%;
     background-color: var(--black-color);
-    width: 80%;
+    width: 70%;
     height: 100%;
     padding: 7.5rem 3.5rem 0;
     border-left: 2px solid var(--black-border);
@@ -281,7 +281,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 4.5rem;
-  
 }
 
 /*.home p {
@@ -337,6 +336,7 @@ img {
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
   transition: box-shadow 0.4s;
+  border-radius: 0.25rem;
 }
 
 .button:hover {
@@ -729,7 +729,7 @@ img {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 600px) {
   .container {
     margin-inline: 1rem;
   }
@@ -747,8 +747,12 @@ img {
   }
 
   .home__img-1 {
-    width: 200px;
-    margin-left: 1.5rem;
+    width: 330px;
+    margin-left: 2px;
+  }
+
+  .home__img-2 {
+    visibility: hidden;
   }
 
   .about__list {
@@ -779,91 +783,6 @@ img {
 
   .footer__content {
     grid-template-columns: repeat(2, max-content);
-  }
-
-  .button {
-    padding: 0.75rem 1.5rem;
-  }
-}
-
-@media screen and (min-width: 370px) {
-  .home__img-2 {
-    visibility: hidden;
-  }
-  .home__img-1 {
-    width: 330px;
-    margin-left: 2px;
-  }
-
-  .footer__content {
-    grid-template-columns: repeat(1, max-content);
-    gap: 1rem;
-  }
-  .home__button {
-    flex-direction: column;
-  }
-
-  .button {
-    padding: 0.75rem 1.5rem;
-  }
-
-  .home__info{
-    text-align: center;
-  }
-
-  .about__img-1 {
-    width: 250px;
-    margin-left: -2rem;
-  }
-
-  .about__img-2 {
-    width: 290px;
-    margin-top: 7rem;
-    margin-left: 1rem;
-    
-  }
-}
-
-/* For medium devices */
-@media screen and (min-width: 540px) {
-  .home__container,
-  .about__container,
-  .services__container,
-  .contact__container {
-    grid-template-columns: 360px;
-    justify-content: center;
-  }
-
-  .footer__content {
-    grid-template-columns: repeat(3, max-content);
-  }
-
-  .button {
-    padding: 0.75rem 1.5rem;
-  }
-}
-
-@media screen and (min-width: 568px) {
-  .nav__menu {
-    width: 50%;
-  }
-
-  .products__container {
-    grid-template-columns: repeat(2, 330px);
-  }
-
-  .contact__data {
-    grid-template-columns: repeat(2, 240px);
-  }
-
-  .footer__container {
-    grid-template-columns: repeat(2, max-content);
-    justify-content: space-between;
-    margin: 1rem;
-  }
-
-  .footer__email {
-    font-size: 0.85rem;
   }
 
   .button {
@@ -960,6 +879,7 @@ img {
     border-width: 10px;
     left: -7rem;
     bottom: -8rem;
+    visibility: visible;
   }
 
   .about__container {
