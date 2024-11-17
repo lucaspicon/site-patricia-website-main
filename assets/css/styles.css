@@ -738,6 +738,12 @@ img {
     font-size: 1.25rem;
   }
 
+  .home__container {
+    position: relative;
+    row-gap: 3rem;
+    padding-block: 2.5rem 2rem;
+  }
+  
   .home__title {
     font-size: 1.75rem;
   }
@@ -748,7 +754,8 @@ img {
 
   .home__img-1 {
     width: 330px;
-    margin-left: 2px;
+    margin: 0 auto;
+    border-radius: 1%;
   }
 
   .home__img-2 {
@@ -757,16 +764,6 @@ img {
 
   .about__list {
     margin-left: 1rem;
-  }
-
-  .about__img-1 {
-    width: 150px;
-    left: 7rem;
-  }
-
-  .about__img-2 {
-    width: 250px;
-    margin-right: 3.5rem;
   }
 
   .footer__content {

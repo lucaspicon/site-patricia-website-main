@@ -59,6 +59,8 @@ const swiperServices = new Swiper(".services__swiper", {
   },
 })
 
+
+
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up")
