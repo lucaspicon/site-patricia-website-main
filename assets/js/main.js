@@ -59,8 +59,52 @@ const swiperServices = new Swiper(".services__swiper", {
   },
 })
 
+/*=============== SWIPER ABOUT ===============*/
+function initializeAboutSwiper() {
+  if (window.innerWidth <= 600) {
+    new Swiper('.about__images.swiper', {
+      loop: true, // Faz o loop dos slides
+      autoplay: {
+        delay: 3000, // Tempo de atraso entre as transições (em milissegundos)
+        disableOnInteraction: false, // Continua a rodar mesmo após interação do usuário
+      },
+      speed: 1000, // Duração da transição entre os slides (em milissegundos)
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+}
 
+// Inicializa o Swiper ao carregar a página
+initializeAboutSwiper();
 
+// Re-inicializa o Swiper ao redimensionar a janela
+window.addEventListener('resize', () => {
+  initializeAboutSwiper();
+});
+
+const aboutSwiper = new Swiper('.about__images.swiper', {
+  loop: true, // Faz o loop dos slides
+  autoplay: {
+    delay: 3000, // Tempo de atraso entre as transições (em milissegundos)
+    disableOnInteraction: false, // Continua a rodar mesmo após interação do usuário
+  },
+  speed: 1000, // Duração da transição entre os slides (em milissegundos)
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up")
