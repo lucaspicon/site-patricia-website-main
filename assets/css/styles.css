@@ -789,6 +789,8 @@ img {
   .button {
     padding: 0.75rem 1.5rem;
   }
+
+  
 }
 
 /* For large devices */
@@ -950,7 +952,7 @@ img {
   }
 
   .services__swiper {
-    max-width: 1100px;
+    max-width: 1150px;
   }
 
   .services__card {
