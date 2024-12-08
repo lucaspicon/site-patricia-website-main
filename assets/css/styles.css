@@ -96,7 +96,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border-radius: 3%;
+  border-radius: 1%;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -608,7 +608,7 @@ img {
 .footer__logo span {
   color: var(--white-color);
   font-size: var(--h3-font-size);
-  font-weight: var var(--font-semi-bold);
+  font-weight: var(--font-semi-bold);
 }
 
 .footer__logo i {
@@ -770,12 +770,6 @@ img {
     margin-left: 1rem;
   }
 
-  
-
-  .footer__content {
-    grid-template-columns: repeat(1, max-content);
-  }
-
   .home__container,
   .about__container,
   .services__container,
@@ -785,7 +779,7 @@ img {
   }
 
   .swiper-button-next,
-  .swiper-button-prev{
+  .swiper-button-prev {
     display: none;
   }
   .footer__content {
@@ -795,8 +789,6 @@ img {
   .button {
     padding: 0.75rem 1.5rem;
   }
-
-  
 }
 
 /* For large devices */
@@ -1031,7 +1023,10 @@ img {
   }
 
   .footer__container {
-    padding-block: 6rem;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem 27rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid var(--black-border);
   }
 
   .footer__content {
