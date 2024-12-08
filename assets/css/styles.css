@@ -784,6 +784,8 @@ img {
   }
   .footer__content {
     grid-template-columns: repeat(2, max-content);
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--black-border);
   }
 
   .button {
