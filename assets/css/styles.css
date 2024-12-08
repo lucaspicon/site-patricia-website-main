@@ -96,7 +96,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  border-radius: 1%;
+  border-radius: 3%;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -896,7 +896,7 @@ img {
     height: 480px;
     object-fit: cover;
     margin: 5px;
-    border-radius: 1%;
+    border-radius: 3%;
     border: 2px solid var(--gray-border);
   }
 
